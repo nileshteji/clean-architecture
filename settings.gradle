@@ -14,3 +14,5 @@ dependencyResolutionManagement {
 }
 rootProject.name = "DroidImagine"
 include ':app'
+include ':core'
+include ':network'
