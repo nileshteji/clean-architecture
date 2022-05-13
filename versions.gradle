@@ -1,0 +1,16 @@
+ext.deps = [:]
+
+//Versions
+def versions = [:]
+versions.retrofit = "2.9.0"
+
+ext.versions = versions
+
+
+// Dependencies
+def deps = [:]
+def network = [:]
+network.retrofit = "com.squareup.retrofit2:retrofit:$versions.retrofit"
+deps.network = network
+
+ext.deps = deps
